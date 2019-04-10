@@ -16,7 +16,7 @@ describe Ingredient do
   end
 
   it "has a unit" do
-    expect(@cheese.unit).to eq("Cheese")
+    expect(@cheese.unit).to eq("oz")
   end
 
   it "has a calorie count" do
